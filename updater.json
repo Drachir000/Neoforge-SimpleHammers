@@ -3,10 +3,21 @@
 	"26.1": {
 		"1.0.0": "Added Core Functionality",
 		"1.0.1": "Added Icon, URL and Updater",
-		"1.0.2": "Added Modrinth Link"
+		"1.0.2": "Added Modrinth Link",
+		"1.0.3": "Enabled and Checked 26.1.1 and 26.1.2 Functionality."
+	},
+	"26.1.1": {
+		"1.0.3": "Enabled and Checked 26.1.1 and 26.1.2 Functionality."
+	},
+	"26.1.2": {
+		"1.0.3": "Enabled and Checked 26.1.1 and 26.1.2 Functionality."
 	},
 	"promos": {
-		"26.1-latest": "1.0.2",
-		"26.1-recommended": "1.0.2"
+		"26.1-latest": "1.0.3",
+		"26.1-recommended": "1.0.3",
+		"26.1.1-latest": "1.0.3",
+		"26.1.1-recommended": "1.0.3",
+		"26.1.2-latest": "1.0.3",
+		"26.1.2-recommended": "1.0.3"
 	}
 }
