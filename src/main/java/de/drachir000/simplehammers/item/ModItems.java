@@ -36,11 +36,11 @@ public class ModItems {
 	));
 	
 	public static final DeferredItem<Item> DIAMOND_HAMMER = ITEMS.registerItem("diamond_hammer", properties -> new HammerItem(properties
-			.tool(ToolMaterial.DIAMOND, ModTags.Block.MINEABLE_WITH_HAMMER, 5f, -3.4f, 9)
+			.tool(ToolMaterial.DIAMOND, ModTags.Block.MINEABLE_WITH_HAMMER, 6f, -3.4f, 9)
 	));
 	
 	public static final DeferredItem<Item> NETHERITE_HAMMER = ITEMS.registerItem("netherite_hammer", properties -> new HammerItem(properties
-			.tool(ToolMaterial.NETHERITE, ModTags.Block.MINEABLE_WITH_HAMMER, 5f, -3.4f, 10)
+			.tool(ToolMaterial.NETHERITE, ModTags.Block.MINEABLE_WITH_HAMMER, 6f, -3.4f, 10)
 	));
 	
 	public static Collection<Item> getHammers() {
