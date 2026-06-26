@@ -25,7 +25,7 @@ public class SimpleHammers {
 	
 	private void addCreative(BuildCreativeModeTabContentsEvent event) {
 		if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-			//
+			event.acceptAll(ModItems.getHammerStacks());
 		}
 	}
 	

@@ -3,6 +3,7 @@ package de.drachir000.simplehammers.item;
 import de.drachir000.simplehammers.SimpleHammers;
 import de.drachir000.simplehammers.tag.ModTags;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.ToolMaterial;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -45,6 +46,10 @@ public class ModItems {
 	
 	public static Collection<Item> getHammers() {
 		return List.of(WOODEN_HAMMER.get(), COPPER_HAMMER.get(), STONE_HAMMER.get(), GOLDEN_HAMMER.get(), IRON_HAMMER.get(), DIAMOND_HAMMER.get(), NETHERITE_HAMMER.get());
+	}
+	
+	public static Collection<ItemStack> getHammerStacks() {
+		return List.of(WOODEN_HAMMER.toStack(), STONE_HAMMER.toStack(), COPPER_HAMMER.toStack(), IRON_HAMMER.toStack(), GOLDEN_HAMMER.toStack(), DIAMOND_HAMMER.toStack(), NETHERITE_HAMMER.toStack());
 	}
 	
 	public static void register(IEventBus eventBus) {
