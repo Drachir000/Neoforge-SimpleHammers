@@ -5,5 +5,6 @@
 	"item.simplehammers.golden_hammer": "Golden Hammer",
 	"item.simplehammers.iron_hammer": "Iron Hammer",
 	"item.simplehammers.diamond_hammer": "Diamond Hammer",
-	"item.simplehammers.netherite_hammer": "Netherite Hammer"
+	"item.simplehammers.netherite_hammer": "Netherite Hammer",
+	"item.simplehammers.hammer.tooltip": "Mines a 3x3 area. Ideal for tunneling."
 }

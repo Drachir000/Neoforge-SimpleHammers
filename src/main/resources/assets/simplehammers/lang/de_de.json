@@ -5,5 +5,6 @@
 	"item.simplehammers.golden_hammer": "Goldhammer",
 	"item.simplehammers.iron_hammer": "Eisenhammer",
 	"item.simplehammers.diamond_hammer": "Diamanthammer",
-	"item.simplehammers.netherite_hammer": "Netherithammer"
+	"item.simplehammers.netherite_hammer": "Netherithammer",
+	"item.simplehammers.hammer.tooltip": "Baut einen 3x3 Bereich ab. Ideal fürs Tunneln geeignet."
 }
