@@ -18,6 +18,8 @@ public class ModTags {
 	
 	public static class Block {
 		
+		public static final TagKey<net.minecraft.world.level.block.Block> MINEABLE_WITH_HAMMER = createTag("mineable/hammer");
+		
 		private static TagKey<net.minecraft.world.level.block.Block> createTag(String name) {
 			return BlockTags.create(Identifier.fromNamespaceAndPath(SimpleHammers.MOD_ID, name));
 		}
