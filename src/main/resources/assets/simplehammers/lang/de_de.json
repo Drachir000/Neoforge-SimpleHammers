@@ -1,2 +1,9 @@
 {
+	"item.simplehammers.wooden_hammer": "Holzhammer",
+	"item.simplehammers.copper_hammer": "Kupferhammer",
+	"item.simplehammers.stone_hammer": "Steinhammer",
+	"item.simplehammers.golden_hammer": "Goldhammer",
+	"item.simplehammers.iron_hammer": "Eisenhammer",
+	"item.simplehammers.diamond_hammer": "Diamanthammer",
+	"item.simplehammers.netherite_hammer": "Netherithammer"
 }
