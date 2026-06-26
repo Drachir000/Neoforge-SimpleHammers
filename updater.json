@@ -1,0 +1,10 @@
+{
+	"homepage": "https://github.com/Drachir000/Neoforge-SimpleHammers",
+	"26.1": {
+		"1.0.0": "Added Core Functionality"
+	},
+	"promos": {
+		"26.1-latest": "1.0.0",
+		"26.1-recommended": "1.0.0"
+	}
+}
